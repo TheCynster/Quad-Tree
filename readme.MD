@@ -6,10 +6,10 @@ I hope that this is useful to somebody.
   
 
 # Initializing
-In the header file  
-@property QuadTree *quadTree;  
-in the implementation file  
-_quadTree = [[QuadTree alloc] init];  
+**In the header file**  
+  @property QuadTree *quadTree;  
+**in the implementation file**  
+  _quadTree = [[QuadTree alloc] init];  
 [_quadTree newQuadTreeWithBounds:YourCGRect) andScene:Yourscene];  
 This creates a new quad tree with the bounds that you specify. 
   
